@@ -1,0 +1,14 @@
+# Pipeline configuration. Paths relative to the repo root.
+
+data:
+  processed_dir: data/processed
+  n_notes: 300
+  seed: 42
+
+retrieval:
+  top_k: 5
+  candidates: 15
+  rrf_k: 60
+
+eval:
+  experiment_name: medcoder
